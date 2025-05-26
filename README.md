@@ -12,7 +12,7 @@ This project demonstrates how to enhance user experience through creative UI ani
 
 ## 🖼️ Preview
 
-![preview](preview.png)
+![preview](./Assets/CustomCursorMagneticButton-GoogleChrome2025-05-2701-05-36-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
