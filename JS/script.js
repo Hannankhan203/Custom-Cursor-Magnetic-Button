@@ -32,12 +32,12 @@ const strength = 100;
 
 magneticBtn.addEventListener("mousemove", (e) => {
   const btnReact = magneticBtn.getBoundingClientRect();
-  const relX = e.clientX - btnReact.left - btnReact.width / 2;
-  const relY = e.clientY - btnReact.top - btnReact.height / 2;
+  const relX = e.clientX - btnReact.left - btnReact.width;
+  const relY = e.clientY - btnReact.top - btnReact.height;
 
   gsap.to(magneticBtn, {
-    x: relX / 3,
-    y: relY / 3,
+    x: relX,
+    y: relY,
     duration: 0.3,
     ease: "power2.out",
   });
